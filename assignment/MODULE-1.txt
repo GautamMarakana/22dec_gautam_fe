@@ -1,0 +1,114 @@
+1. Are the HTML tags and elements the same thing?
+
+==> No, HTML tags and elements are not same.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+2. What are tags and attributes in HTML?
+
+==>Html tags has use hold the html element.
+==>Html atributes provide the additional information.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+3. What are void elements in HTML?
+
+==> A tag that does not end with a slash (/) end tag is called a void tag
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+4. What are HTML Entities?
+
+==> An HTML entity is a piece of text ("string") that begins with an ampersand ( & ) and ends with a 
+        semicolon ( ; ).
+==> EX:- &gt; (>),
+                 &lt; (<)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+5. What is the diffrent types of lists in HTML? 
+
+==>1. Unordered list(ul)     2. Ordered list(ol)    3. Description list(dl)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+6. What is the 'class' attribute in HTML?
+
+==> The class attribute specifies one or more classnames for an element. 
+==> class attribute In which while giving CSS (.)dot is shown from
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+7. What is the diffrence between the 'id' attribute and 'class' attribute of HTML elements?
+   
+==> id name use only one time.
+==> class name use multiple time.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+8. What are the various formatting tags in HTML?
+
+==> Formatting tag means that text can be changed to bold, big, small, underline,
+        mark, font-style.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+9. How is Cell Padding diffrent from Cell Spacing?
+
+==>Cell padding means keeping space between cell and text.
+==>Cell spacing means keeping space between two cell.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+10. How can we club two or more rows or columns into single row or columns in an HTML table?
+	
+==>rowspan and colspan used two or more rows or columns into convert single 
+       row or columns .
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+11. What is the diffrence between a block-level element and an inline element?
+
+==>A block level element is one whose height is the same as the content and has full width.
+==>A inline element is one whose height and width is the same as the content.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+12. How to create a Hyperlink in HTML?
+
+==> <a></a>  tag use create Hyperlink in HTML.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+13. What is the use of an iframe tag?
+
+==>The <iframe> tag defines a rectangular region within the document in which the browser can display 
+       a separate document, including scrollbars and borders.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+14. What is the use of a span tag? Explain with example?
+
+==>Span tag used mark up a part and text in container.
+==>EX:-   <SPAN style="color: pink;">  Contrary to popular belief  </SPAN>, Lorem Ipsum is not simply
+                   random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 
+                   years old. 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+15. How to insert a picture into a background image of a web page?
+
+==>  <style>
+    	body {
+        	          background-image:url(" URL of the image ");
+    	}
+         </style>
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+16. How are active link diffrent from normal links?
+
+==> active link means when click link that time link color change
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+17. What are the diffrent tags to separate sections of text?
+
+==>Active link means when we click on that link, the color of the link changes.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+18. What is SVG?
+
+==>SVG  :-  Scalable Vector Graphics
+==> svg is image file format, this file image can be scaled up or down without losing any of its resolution.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+19. What is diffrence between HTML and XHTML?
+
+==>1. HTML is hypertext markup language.                           1. XHTML is Extensible hypertext markup 
+					            language
+==>2. HTML can have empty/open tags.                                 2. XHTML al the unclosed tags must be closed.
+           EX :- <br>, <p>.                                                                      EX:- <p></p>, <h1></h1>
+==>3. HTML is not Case sensitive.                                              3. XHTML is Case sensitive.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+20. What are logical and physical tags in HTML?
+
+==> Logical Tags  :
+	Logical Tags are used in HTML to display the text according to the logical styles.
+	EX: <abbr></abbr>
+	       <address></address>
+	       <blockquote></blockquote> 	
+==>physical tags :
+	Physical Tags are used in HTML to provide actual physical formatting to the text
+	EX:-
+	     <b></b>
+	     <i></i>
+	     <sub></sub>
+	     <sup></sup>	
+	
