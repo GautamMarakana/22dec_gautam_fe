@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    ul{
+        list-style-type: none;
+        background-color: rgba(0, 0, 0, 0.9);
+        display: flow-root;
+    }
+    li{
+        float: left;
+    }
+    li a{
+        display: inline-block;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+    }
+    li.a1{
+        float: right;
+        padding: 10px;
+        color: white;
+        font-size: 20px;
+    }
+    .active{
+        background-color: green;
+    }
+    li:hover:not(.active){
+        background-color: black;
+    }
+</style>
+<body>
+    <ul>
+        <li title="Home">
+            <a href="#"><i class="fa-solid fa-house"></i></a>
+        </li>
+        <li title="HTML" class="active">
+            <a href="#">HTML</a>
+        </li>
+        <li title="CSS">
+            <a href="#">CSS</a>
+        </li>
+        <li title="JAVASCRIPT">
+            <a href="#">JAVASCRIPT</a>
+        </li>
+        <li title="SQL">
+            <a href="#">SQL</a>
+        </li>
+        <li title="PYTHON">
+            <a href="#">PYTHON</a>
+        </li>
+        <li title="JAVA">
+            <a href="#">JAVA</a>
+        </li>
+        <li title="PHP">
+            <a href="#">PHP</a>
+        </li>
+        <li title="BOOTSTRAP">
+            <a href="#">BOOTSTRAP</a>
+        </li>
+        <li title="HOW TO">
+            <a href="#">HOW TO</a>
+        </li>
+        <li title="W3.CSS">
+            <a href="#">W3.CSS</a>
+        </li>
+        <li title="C">
+            <a href="#">C</a>
+        </li>
+        <li title="C++">
+            <a href="#">C++</a>
+        </li>
+        <li class="a1"><i class="fa-solid fa-circle-half-stroke"></i></li>
+        <li class="a1"><i class="fa-solid fa-earth-americas"></i></li>
+        <li class="a1"><i class="fa-solid fa-magnifying-glass"></i></li>
+    </ul>
+</body>
+
+</html>
