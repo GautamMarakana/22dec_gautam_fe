@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forgot</title>
+</head>
+<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	body{
+		background-color: rgba(204, 204, 255, 0.3);
+	}
+	section{
+		width: 30%;
+		height: auto;
+		border: 2px solid rgba(102, 0, 255, 0.8);
+		border-radius: 10px;
+		padding: 25px 15px;
+		margin: 40px auto;
+		background-color: rgba(204, 204, 255, 0.5);
+		box-shadow: 2px 2px 5px 5px rgba(204, 204, 204), -2px -2px 5px rgba(204, 204, 204);
+	}
+	header{
+		text-align: center;
+	}
+	#a1{
+		color: rgba(102, 0, 255, 0.8);
+		margin-bottom: 10px;
+	}
+	h1{
+		margin-bottom: 20px;
+	}
+	label{
+		display: inline-block;
+		font-weight: bold;
+		margin: 15px 0px;
+	}
+	input{
+		width: 100%;
+		border-radius: 10px;
+		border-color: white;
+		height: 30px;
+	}
+	p{
+		margin: 20px 0px;
+		color: rgba(102, 0, 255, 0.8);
+	}
+	a{
+		display: inline-block;
+		text-decoration: none;
+		margin: 20px 0px;
+		text-align: center;
+		width: 100%;
+	}
+	input[type='submit']{
+		background: linear-gradient(90deg, rgba(134,131,184,1) 0%, rgba(40,52,183,1) 28%, rgba(9,9,121,1) 54%);
+		color: white;
+		width: 70%;
+		margin-left: 15%;
+		font-weight: bolder;
+	}
+</style>
+<body>
+	<section>
+		<header>
+			<h1 id="a1">TOPS</h1>
+			<h1>Career Center Login</h1>
+			<h1>Forget Password</h1>
+		</header>
+		<content>
+			<form>
+				<label for="no.">Enter Registered Mobile Number</label>
+				<input type="tel" name="no." pattern="[0-9]{10}" maxlength="10">
+				<p>
+					Your Password will be sent to your registered mobile number or Email id
+				</p>
+				<input type="submit" name="submit" value="Send">
+				<a href="form.html">Login</a>
+			</form>
+		</content>
+	</section>
+</body>
+</html>
